@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import './ErrorMessage.css';
+import './../ErrorMessage.css';
 
 const ErrorMessage = ({ message }) => (
   message ? (

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import './Form.css';
+import './../Form.css';
 
 const Form = ({ onSubmit }) => {
   const [formData, setFormData] = useState({

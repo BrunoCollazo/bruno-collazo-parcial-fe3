@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import './Card.css';
+import './../Card.css';
 
 const Card = ({ name, color }) => (
   <div className="card">

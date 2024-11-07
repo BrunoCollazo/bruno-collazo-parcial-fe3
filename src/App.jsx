@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Form from './Form';
-import Card from './Card';
-import ErrorMessage from './ErrorMessage';
+import Form from './components/Form';
+import Card from './components/Card';
+import ErrorMessage from './components/ErrorMessage';
 import './App.css';
 
 
