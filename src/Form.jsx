@@ -23,7 +23,7 @@ const Form = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className="form-container">
-      <div>
+      <div className="input-container">
         <input
           type="text"
           name="name"
@@ -34,7 +34,7 @@ const Form = ({ onSubmit }) => {
         />
       </div>
       
-      <div>
+      <div className="input-container">
         <input
           type="text"
           name="color"

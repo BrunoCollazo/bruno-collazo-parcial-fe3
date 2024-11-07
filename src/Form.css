@@ -6,17 +6,21 @@
   margin-bottom: 1rem;
   align-items: center;
 }
-
+.input-container{
+    display: flex;
+    width: 100%;
+}
 .form-input {
   width: 100%;
-  padding: 0.75rem 4.75rem;
+  padding: 0.75rem 0.4rem;
   font-size: 1.125rem;
   border: 1px solid #ccc;
   border-radius: 4px;
+  align-self: center;
 }
 
 .form-button {
-  width: 100%;
+width: 40%;
   padding: 0.5rem;
   background-color: #3b82f6;
   color: white;
